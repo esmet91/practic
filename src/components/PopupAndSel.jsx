@@ -11,7 +11,7 @@ function PopupAndSel() {
   return (
     <div className="popup">
       <div className="countStyle">
-        Отображение и скрытие попапа. Выбор элемента попапа <span>PopupAndSel.jsx</span>
+        Отображение и скрытие попапа. Выбор элемента попапа! <span>PopupAndSel.jsx</span>
       </div>
       <div className="popup-block">
         <p>
