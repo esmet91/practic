@@ -1,0 +1,94 @@
+body {
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
+ul li {
+  list-style: none;
+}
+button {
+  cursor: pointer;
+}
+.countStyle {
+  color: red;
+  text-align: center;
+  font-weight: 800;
+  font-size: 30px;
+  span {
+    color: rgb(3, 70, 14);
+  }
+}
+.big {
+  text-align: center;
+  font-size: 50px;
+  color: green;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+}
+button {
+  margin: 10px;
+  width: 100px;
+  height: 100px;
+}
+.categoryList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  li {
+    border: 1px solid rgb(40, 2, 143);
+    cursor: pointer;
+    margin: 0 10px;
+    padding: 15px 40px;
+    font-size: 20px;
+  }
+}
+.active {
+  color: #fff;
+  background-color: #000;
+}
+// popup
+.popup {
+  display: flex;
+  flex-direction: column;
+}
+.popup-block {
+  display: inline-block;
+
+  //text-align: center;
+  font-size: 25px;
+  margin: 20px auto;
+  padding: 0 10px;
+  position: relative;
+}
+.list-item-checked {
+  font-style: italic;
+  margin: 0 10px;
+  color: orange;
+  cursor: pointer;
+  border-bottom: orange dotted;
+}
+.popup-block2 {
+  background-color: rgb(5, 41, 80);
+  position: absolute;
+  top: 65px;
+  right: -85px;
+  width: 200px;
+  height: 200px;
+}
+
+.popup-list {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  li {
+    padding: 5px;
+    margin: 5px 0;
+    cursor: pointer;
+  }
+}
+.active-list {
+  color: orange;
+  font-weight: 600;
+}
